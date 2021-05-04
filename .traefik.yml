@@ -1,0 +1,10 @@
+displayName: Redirect with Cache-Control
+type: middleware
+
+import: github.com/dsenske/traefik-middleware-redirect
+
+summary: 'Redirects with cache-control header'
+
+testData:
+  redirectCode: 301
+  redirectUri: https://github.com
